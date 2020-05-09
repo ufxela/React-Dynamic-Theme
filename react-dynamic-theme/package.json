@@ -2,7 +2,7 @@
   "name": "react-dynamic-theme",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ufxela.github.io/react-dynamic-theme",
+  "homepage": "https://ufxela.github.io/React-Dynamic-Theme/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
