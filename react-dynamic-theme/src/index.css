@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.NavBar-item {
+  position:relative;
+  display:inline;
+}
+
+.NavBar-dropdown {
+  position:absolute;
+  left:-9999px;
+  margin:0;
+  padding:0;
+  text-align:left;
+}
+
+.NavBar-dropdown-item {
+  display:block;
+}
+
+.NavBar-item-link {
+  display:inline-block;
+  padding:10px;
+  text-decoration:none;
+  font-weight:bold;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-app-region: no-drag;
+	cursor: default;
+}
+
+.themes-display-case {
+  display:table;
+  border-collapse:separate;
+  border-spacing:5px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.theme-card {
+  display:table-cell;
+  padding:5px;
+}
+
+.theme-card:hover {
+  transform: scale(1.05);
+}
+
+.UI-button:hover {
+  filter: brightness(75%)
+}
+
+.UI-button:active  {
+  filter: brightness(125%)
+}
+
+.center {
+  display: table;
+  margin: auto;
+}
+
+.container-group { 
+  margin: 10px;
+}
+
+.container-row {
+  text-align: center;  
+}
+
+.container-row-elmt {
+  display: inline-block;
+}
+
+.horizontal-margin-grouped { 
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.vertical-margin-grouped {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.vertical-center-icon {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
